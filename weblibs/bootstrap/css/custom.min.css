@@ -50,6 +50,7 @@ body>.navbar
 	color: #fff;
 	padding: 4.5em 0 2em;
 	text-align: center;
+	object-fit: cover;
 
 }
 
@@ -100,11 +101,12 @@ body>.navbar
 	margin-top: 120px;
 }
 .programmeImage{
-	margin:50px auto;
+	margin:0px auto;
 }
 .programmeImage img{
 	height: 250px;
 	width: 450px;
+    object-fit: contain;
 
 }
 .blueBold{
@@ -112,13 +114,15 @@ body>.navbar
 	color: darkblue;
 }
 .certificateSample{
-
+  margin: 0px 0px;
 }
 
 .certificateSample  img{
-	height: 500px;
+	height:auto;
 	width: 750px;
 	margin: auto;
+	object-fit: contain;
+	/*object-fit: cover;*/
 }
 .certificateRequirement{
 	margin: 30px 0px;
@@ -320,7 +324,7 @@ h3 {
 	font-family: BebasNeueRegular,sans-serif;
 }
 .container form{
-	max-width: 70%;
+	max-width: 100%;
 }
 .contactForm{
 	margin: 25px;
@@ -371,4 +375,3 @@ h3 {
     color: #ffffff;
     background-color: #f39c12;
 }
-g
