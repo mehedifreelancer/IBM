@@ -1,0 +1,374 @@
+html,body
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+body>.navbar
+{
+	transition: background-color .3s ease-in;
+	webkit-transition: background-color .3s ease-in;
+}
+@media (min-width:768px)
+{
+	body>.navbar-transparent
+	{
+		background-color: transparent;
+	}
+	body>.navbar-transparent .navbar-nav>.open>a
+	{
+		background-color: transparent!important;
+	}
+}
+#home
+{
+	padding-top: 0;
+}
+#home .navbar-brand
+{
+	padding: 13.5px 15px 12.5px;
+}
+#home .navbar-brand>img
+{
+	display: inline;
+	height: 100%;
+	margin: 0 10px;
+}
+.nav-tabs
+{
+	margin-bottom: 15px;
+}
+.intro
+{
+	background-attachment:fixed;
+	background-color: #222222;
+	background-image: url('../../../images2/scrum_certification_landing.jpg');
+	background-repeat:no-repeat;
+ 	background-size:100vw 100vh;
+	color: #fff;
+	padding: 4.5em 0 2em;
+	text-align: center;
+
+}
+
+.crtImage{
+	box-shadow: 1px 2px 5px 1px #dddddd;
+	border: 1px solid #ddd;
+	padding-bottom: 5px;
+
+
+}
+.crtImage img{
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+}
+.certificateImages{
+	margin: 30px 0px;
+
+}
+.certificateImages p{
+	padding: 8px;
+}
+.company-logo img{
+	height:  auto;
+	width: 100%;
+
+}
+.singleLogo{
+	margin: 30px;
+}
+
+.singleLogo{
+	box-shadow: 1px 5px 3px 1px  #dddddd;
+}
+.events{
+	margin: 20px;
+}
+.panel-body {
+	height: 250px;
+}
+
+
+/*VIsitor commests div style*/
+
+
+/*Vsiitor comment div ended */
+.programBody{
+	margin-top: 120px;
+}
+.programmeImage{
+	margin:50px auto;
+}
+.programmeImage img{
+	height: 250px;
+	width: 450px;
+
+}
+.blueBold{
+	font-weight: bloder;
+	color: darkblue;
+}
+.certificateSample{
+
+}
+
+.certificateSample  img{
+	height: 500px;
+	width: 750px;
+	margin: auto;
+}
+.certificateRequirement{
+	margin: 30px 0px;
+}
+
+
+.benefits h1{
+	background-color: #f39c12;
+	padding: 40px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	border-bottom: 2px solid #303030;
+	width: 100%;
+	height: 100%;
+	color: #F6F6F6;
+	font-family: BebasNeueRegular,sans-serif;
+}
+.benefitesDescribe h4{
+	font-weight: bolder;
+}
+
+.benefits{
+	margin: 30px 0px;
+}
+.registerHeading h1{
+	color:darkblue;
+	font-family: BebasNeueRegular,sans-serif;
+	font-weight: bold;
+}
+.offerHeading {
+	background:#f39c12;
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0px;
+}
+.offerHeading h1{
+	color:gray;
+	font-family: BebasNeueRegular,sans-serif;
+	font-weight: bold;
+	padding: 10px;
+}
+.form img{
+	max-width: 300px;
+	max-height: 150px;
+	padding: 10px;
+
+}
+.select{
+	border: 1px solid darkblue;
+
+}
+.radio{
+	margin: 15px;
+    display: block;
+    position: relative;
+}
+.radio input{
+	margin-top: 50px;
+    position: absolute;
+    background: red;
+
+
+}
+.choose h3{
+ margin: 80px;
+}
+.fields{
+    padding: 40px;
+    box-shadow: 1px 2px 5px 1px #dddddd;
+
+}
+.bankSecuredRegister{
+
+    margin: auto;
+    padding: 40px;
+
+}
+.bankSecuredRegister i{
+    background: transparent;
+}
+.paymentMethod input{
+    max-width: 40%;
+    display: inline-block;
+	margin: 5px;
+}
+.paymentMethod{
+	margin: 20px 0px;
+}
+.paymentMethod img{
+	height: 15px;
+	width: 70px;
+}
+
+/*CSS for faq */
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+h3 {
+	font-size: 1.75rem;
+	color: #373d51;
+	padding: 1.3rem;
+	margin: 0;
+}
+
+.accordion a {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	padding: 1rem 3rem 1rem 1rem;
+	color: #7288a2;
+	font-size: 22px;
+	font-weight: 400;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+	cursor: pointer;
+	color: #f39c12;
+	text-decoration: none;
+}
+
+.accordion a:hover::after {
+	border: 1px solid #f39c12;
+}
+
+.accordion a.active {
+	color: #f39c12;
+	border-bottom: 1px solid #f39c12;
+}
+
+
+
+
+.accordion .content {
+	opacity: 0;
+	padding: 0 1rem;
+	max-height: 0;
+	border-bottom: 1px solid #e5e5e5;
+	overflow: hidden;
+	clear: both;
+	-webkit-transition: all 0.2s ease 0.15s;
+	-o-transition: all 0.2s ease 0.15s;
+	transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.accordion .content.active {
+	opacity: 1;
+	padding: 1rem;
+	max-height: 100%;
+	-webkit-transition: all 0.35s ease 0.15s;
+	-o-transition: all 0.35s ease 0.15s;
+	transition: all 0.35s ease 0.15s;
+}
+/*CSS for faq has ended*/
+.faqSection{
+	margin: 100px 0px;
+}
+.faqSection h1{
+	margin: 40px;
+	font-family: BebasNeueRegular,sans-serif;
+	color: #f39c12;
+}
+.container i{
+
+}
+.fa-star{
+
+}
+.globalHeading{
+	margin-top: 40px;
+}
+.globalHeading h1{
+	color:#f39c12;
+	font-family: BebasNeueRegular,sans-serif;
+}
+.container form{
+	max-width: 70%;
+}
+.contactForm{
+	margin: 25px;
+}
+.form{
+	box-shadow: 1px 2px 5px 2px #dddddd;
+	padding: 15px;
+}
+.contactForm .submitButton input{
+	margin: auto;
+}
+.contactForm input{
+	margin: 10px 0px;
+}
+.questionAnswer .panel-body{
+	height: auto;
+}
+.questionAnswer .panel-body, .panel-footer, .panel-heading{
+	border:none;
+}
+.disscussionAndEvent{
+    margin: 25px 0px;
+}
+.btns{
+    margin: 5px;
+}
+.disscussion{
+    margin: 50px 0px;
+}
+.disscussion i{
+    font-size:18px ;
+    background: transparent ;
+}
+.disscussionPassage{
+    margin: 20px 0px;
+}
+.disscussion h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:#f39c12;
+    background-color: transparent;
+}
+.dropdown-menu>li>a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #f39c12;
+}
+g
